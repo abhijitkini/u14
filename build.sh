@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 export BRANCH=master
-export IMAGE_NAME=drydock/u14
+export IMAGE_NAME=abhijitkini/u14
 export RES_DOCKER_CREDS=docker-creds
 export RES_REPO=u14-repo
 export RES_IMAGE=u14-img
