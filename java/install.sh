@@ -18,8 +18,6 @@ apt-get install -y oracle-java7-installer
 update-alternatives --set java /usr/lib/jvm/java-7-oracle/jre/bin/java
 update-alternatives --set javac /usr/lib/jvm/java-7-oracle/bin/javac
 update-alternatives --set javaws /usr/lib/jvm/java-7-oracle/jre/bin/javaws
-echo 'export JAVA_HOME=/usr/lib/jvm/java-7-oracle' >> $HOME/.bashrc
-echo 'export PATH=$PATH:/usr/lib/jvm/java-7-oracle/jre/bin' >> $HOME/.bashrc
 
 echo "================ Installing oracle-java8-installer ================="
 echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | debconf-set-selections
