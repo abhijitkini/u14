@@ -27,7 +27,8 @@ apt-get install -y \
   nano \
   unzip \
   libxslt-dev \
-  libxml2-dev
+  libxml2-dev \
+  libgmp3-dev
 
 echo "================= Installing Python packages ==================="
 apt-get install -y \
