@@ -12,11 +12,11 @@ echo "================= Installing RVM ==================="
 source /usr/local/rvm/scripts/rvm
 rvm requirements
 
-echo "================= Installing default ruby ==================="
-rvm install ruby
+echo "================= Installing ruby 2.3.1 ==================="
+rvm install 2.3.1
 
 # tell rvm to use this version as default
-rvm use ruby --default
+rvm use 2.3.1 --default
 
-#update gems to current
-rvm rubygems current
+#update gems to 2.6.6
+rvm rubygems 2.6.6
